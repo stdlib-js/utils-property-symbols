@@ -1,4 +1,4 @@
-name: Install dependencies
+name: Test Installing Dependencies
 
 on:
   workflow_run:
