@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-property-symbols",
-  "version": "0.0.1-alpha.8",
+  "version": "0.0.0",
   "description": "Return an array of an object's own symbol properties.",
   "license": "Apache-2.0",
   "author": {
@@ -73,5 +73,9 @@
     "own",
     "properties",
     "props"
-  ]
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
 }
