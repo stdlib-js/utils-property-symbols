@@ -20,7 +20,7 @@ limitations under the License.
 
 # propertySymbols
 
-> Return an array of an object's own [symbol][@stdlib/symbol/ctor] properties.
+> Return an array of an object's own symbol properties.
 
 <section class="installation">
 
@@ -42,7 +42,7 @@ var propertySymbols = require( '@stdlib/utils-property-symbols' );
 
 #### propertySymbols( obj )
 
-Returns an `array` of an object's own [symbol][@stdlib/symbol/ctor].
+Returns an `array` of an object's own symbol.
 
 ```javascript
 var symbols = propertySymbols( {} );
