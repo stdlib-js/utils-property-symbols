@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: superbrothers/close-pull-request@v3
       with:
-        comment: >
+        comment: |
           Thank you for submitting a pull request. :raised_hands:
           We greatly appreciate your willingness to submit a contribution. However, we are not accepting pull requests against this repository, as all development happens on the [main project repository](https://github.com/stdlib-js/stdlib).
           
