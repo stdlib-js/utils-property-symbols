@@ -4,6 +4,7 @@ on: push
 
 jobs:
   tests:
+    if: false
     runs-on: ubuntu-latest
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -12,8 +13,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: |
+      - name: Install production and development dependencies
+        id: install
+        run: |
           npm install
+      - name: Run tests
+        id: tests
+        run: |
           npm test
       - uses: act10ns/slack@v1
         with:

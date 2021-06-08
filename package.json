@@ -23,7 +23,7 @@
   },
   "types": "./docs/types",
   "scripts": {
-    "test": "tape test/**.js"
+    "test": "tape $(grep -irl --include=\\*.js \"tape\" ./test)"
   },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
