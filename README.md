@@ -19,7 +19,9 @@ limitations under the License.
 -->
 
 # propertySymbols
-[![NPM version][npm-image]][npm-url] [![Build][test-image]][test-url] [![Dependencies][dependencies-image]][dependencies-url]
+
+[![NPM version][npm-image]][npm-url] [![test][test-image]][test-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Return an array of an object's own [symbol][@stdlib/symbol/ctor] properties.
 
 <section class="installation">
