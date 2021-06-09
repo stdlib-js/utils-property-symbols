@@ -23,7 +23,9 @@
   },
   "types": "./docs/types",
   "scripts": {
-    "test": "tape $(grep -irl --include=\\*.js \"tape\" ./test)"
+    "test": "tape $(grep -irl --include=\\*.js \"tape\" ./test)",
+    "examples": "find examples/** -name \"*.js\" ! -path \"examples/fixtures/**\" | while read -r file; do echo \"\"; echo \"Running example: $file\"; node $file || exit 1; done",
+    "benchmark": "find benchmark/** -name \"*.js\" ! -path \"benchmark/fixtures/**\" | while read -r file; do echo \"\"; echo \"Running benchmark: $file\"; node $file || exit 1; done"
   },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
