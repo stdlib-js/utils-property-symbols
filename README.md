@@ -19,7 +19,7 @@ limitations under the License.
 -->
 
 # propertySymbols
-[![Tests][tests-image]][tests-url] [![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url] [![Tests][test-image]][test-url]
 > Return an array of an object's own [symbol][@stdlib/symbol/ctor] properties.
 
 <section class="installation">
@@ -125,8 +125,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-property-symbols.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-property-symbols
 
-[tests-image]: https://github.com/stdlib-js/utils-property-symbols/actions/workflows/tests.yml/badge.svg
-[tests-url]: https://github.com/stdlib-js/utils-property-symbols/actions/workflows/tests.yml
+[test-image]: https://github.com/stdlib-js/utils-property-symbols/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/utils-property-symbols/actions/workflows/test.yml
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
