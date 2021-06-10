@@ -43,7 +43,7 @@ workshops/
 
 # Ignore top-level tools directory, except for scripts:
 # /tools/**
-!# /tools/*scripts/
+# !# /tools/*scripts/
 
 # Only top-level directories:
 /etc/
