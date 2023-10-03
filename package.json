@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-property-symbols",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Return an array of an object's own symbol properties.",
   "license": "Apache-2.0",
   "author": {
@@ -37,14 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/object-ctor": "^0.1.0"
+    "@stdlib/object-ctor": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-has-symbol-support": "^0.1.0",
     "@stdlib/assert-is-array": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
-    "@stdlib/symbol-ctor": "^0.1.0",
+    "@stdlib/symbol-ctor": "^0.1.1",
     "@stdlib/utils-define-property": "^0.1.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
