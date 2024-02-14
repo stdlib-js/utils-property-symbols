@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+propertySymbols = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-property-symbols/tags). For example,
+
+```javascript
 propertySymbols = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var propertySymbols = require( 'path/to/vendor/umd/utils-property-symbols/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -103,7 +108,7 @@ var symbols = propertySymbols( {} );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
