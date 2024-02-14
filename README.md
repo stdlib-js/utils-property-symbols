@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@esm/index.mjs';
+import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.0-esm/index.mjs';
 ```
 
 #### propertySymbols( obj )
@@ -81,7 +81,7 @@ var symbols = propertySymbols( {} );
 
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@esm/index.mjs';
+import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.0-esm/index.mjs';
 
 function Foo() {
     if ( hasSymbolSupport() ) {
