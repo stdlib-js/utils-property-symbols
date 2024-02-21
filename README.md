@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-property-symbols/tags). For example,
+
+```javascript
 import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.1-deno/mod.js';
 ```
 
@@ -76,7 +81,7 @@ var symbols = propertySymbols( {} );
 ```javascript
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@deno/mod.js';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@deno/mod.js';
-import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@v0.2.1-deno/mod.js';
+import propertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-property-symbols@deno/mod.js';
 
 function Foo() {
     if ( hasSymbolSupport() ) {
