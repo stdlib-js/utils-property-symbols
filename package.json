@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-property-symbols",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Return an array of an object's own symbol properties.",
   "license": "Apache-2.0",
   "author": {
@@ -42,9 +42,9 @@
   "devDependencies": {
     "@stdlib/assert-has-symbol-support": "^0.2.2",
     "@stdlib/assert-is-array": "^0.2.2",
-    "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/symbol-ctor": "^0.2.2",
-    "@stdlib/utils-define-property": "^0.2.4",
+    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/symbol-ctor": "^0.2.3",
+    "@stdlib/utils-define-property": "^0.2.5",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
